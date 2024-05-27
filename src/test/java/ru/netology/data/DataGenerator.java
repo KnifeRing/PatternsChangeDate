@@ -53,7 +53,6 @@ public class DataGenerator {
         Faker faker = new Faker(new Locale(locale));
         String phone = faker.phoneNumber().phoneNumber();
         return phone;
-        return phone;
     }
 
     public static class Registration {
